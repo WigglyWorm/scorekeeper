@@ -1,0 +1,56 @@
+body {
+	background-image: url(http://tianyihengfeng.com/wp-content/uploads/2016/06/super-mario-desktop-wallpaper.jpg);
+	text-align: center;
+	font-size: 50px;
+	background-size: cover;
+}
+
+.winner {
+	color: green;
+}
+
+h1 {
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+input {
+	width: 50px;
+    height: 18px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 68px;
+    left: 214px;
+    font-size: 20px;
+    padding: 1px;
+    border: 1px solid black;
+    background: transparent;
+    padding: 8px;
+}
+
+button {
+	padding: 20px;
+	background: transparent;
+	font-size: 14px;
+	border-radius: 30px;
+	border: 2px solid black;
+	margin: 18px;
+	cursor: pointer;
+	position: relative;
+	right: 23px;
+}
+
+.btn {
+	margin-top: -37px;
+}
+
+button:active {
+	background: ;
+}
+
+#reset {
+	border-radius: 30px;
+    padding: 10px;
+    border: 1px solid black;
+}
