@@ -21,7 +21,7 @@ input {
     border-radius: 30px;
     position: relative;
     bottom: 68px;
-    left: 214px;
+    left: 191px;
     font-size: 20px;
     padding: 1px;
     border: 1px solid black;
@@ -34,8 +34,9 @@ button {
 	background: transparent;
 	font-size: 14px;
 	border-radius: 30px;
-	border: 2px solid black;
+	border: 3px solid black;
 	margin: 18px;
+	margin-right: 32px;
 	cursor: pointer;
 	position: relative;
 	right: 23px;
@@ -43,14 +44,16 @@ button {
 
 .btn {
 	margin-top: -37px;
+	margin-left: 107px;
 }
 
-button:active {
+/*button:active {
 	background: ;
-}
+}*/
 
 #reset {
 	border-radius: 30px;
     padding: 10px;
     border: 1px solid black;
+    margin-left: -37px;
 }
