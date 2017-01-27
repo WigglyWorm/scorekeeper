@@ -18,7 +18,7 @@ p {
 input {
 	width: 50px;
     height: 18px;
-    border-radius: 30px;
+    border-radius: 10px;
     position: relative;
     bottom: 68px;
     left: 191px;
@@ -44,7 +44,7 @@ button {
 
 .btn {
 	margin-top: -37px;
-	margin-left: 107px;
+	margin-left: 145px;
 }
 
 /*button:active {
@@ -56,4 +56,6 @@ button {
     padding: 10px;
     border: 1px solid black;
     margin-left: -37px;
+    bottom: -50px;
+    right: 206px;
 }
