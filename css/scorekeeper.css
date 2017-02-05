@@ -18,10 +18,10 @@ p {
 input {
 	width: 50px;
     height: 18px;
-    border-radius: 10px;
+    border-radius: 30px;
     position: relative;
     bottom: 68px;
-    left: 191px;
+    left: 214px;
     font-size: 20px;
     padding: 1px;
     border: 1px solid black;
@@ -34,28 +34,24 @@ button {
 	background: transparent;
 	font-size: 14px;
 	border-radius: 30px;
-	border: 3px solid black;
+	border: 2px solid black;
 	margin: 18px;
-	margin-right: 32px;
 	cursor: pointer;
 	position: relative;
 	right: 23px;
+	outline: none;
 }
 
 .btn {
 	margin-top: -37px;
-	margin-left: 145px;
 }
 
-/*button:active {
-	background: ;
-}*/
+button:active {
+	background: #aed1f4;
+}
 
 #reset {
 	border-radius: 30px;
     padding: 10px;
     border: 1px solid black;
-    margin-left: -37px;
-    bottom: -50px;
-    right: 206px;
 }
