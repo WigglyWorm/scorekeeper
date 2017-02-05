@@ -18,15 +18,16 @@ p {
 input {
 	width: 50px;
     height: 18px;
-    border-radius: 30px;
+    border-radius: 10px;
     position: relative;
     bottom: 68px;
-    left: 214px;
+    left: 191px;
     font-size: 20px;
     padding: 1px;
     border: 1px solid black;
     background: transparent;
     padding: 8px;
+    outline: none;
 }
 
 button {
@@ -34,8 +35,9 @@ button {
 	background: transparent;
 	font-size: 14px;
 	border-radius: 30px;
-	border: 2px solid black;
+	border: 3px solid black;
 	margin: 18px;
+	margin-right: 32px;
 	cursor: pointer;
 	position: relative;
 	right: 23px;
@@ -44,6 +46,7 @@ button {
 
 .btn {
 	margin-top: -37px;
+	margin-left: 145px;
 }
 
 button:active {
@@ -54,4 +57,7 @@ button:active {
 	border-radius: 30px;
     padding: 10px;
     border: 1px solid black;
+    margin-left: -37px;
+    bottom: -50px;
+    right: 206px;
 }
